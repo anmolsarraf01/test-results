@@ -1,5 +1,25 @@
 [ {
-  "uid" : "62403fee82e7efa1",
+  "uid" : "dc6d2ca1b1623087",
+  "name" : "pipelines?projectId=6141d62d823f66daa6495879",
+  "time" : {
+    "start" : 1637340051529,
+    "stop" : 1637340051633,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea942564601384ad",
+  "name" : "pipelines?projectId=6141d62d823f66daa6495879",
+  "time" : {
+    "start" : 1637310567207,
+    "stop" : 1637310567288,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d83aca64c0383d75",
   "name" : "workflow?pipeline=618d3051b0da95d27b103c60",
   "time" : {
     "start" : 1637310566719,
@@ -9,12 +29,12 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b49e4eea3437af45",
-  "name" : "pipelines?projectId=6141d62d823f66daa6495879",
+  "uid" : "9dbd09ed19aae05d",
+  "name" : "workflow?pipeline=618d3051b0da95d27b103c60",
   "time" : {
-    "start" : 1637310567207,
-    "stop" : 1637310567288,
-    "duration" : 81
+    "start" : 1637340051165,
+    "stop" : 1637340051524,
+    "duration" : 359
   },
   "status" : "passed",
   "severity" : "normal"
