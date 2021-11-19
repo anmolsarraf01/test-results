@@ -1,5 +1,39 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "api/workflow",
+    "children" : [ {
+      "name" : "workflow?pipeline=618d3051b0da95d27b103c60",
+      "uid" : "62403fee82e7efa1",
+      "parentUid" : "2612f171674b9d6133b701f8f4a4ae45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637310566719,
+        "stop" : 1637310567201,
+        "duration" : 482
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2612f171674b9d6133b701f8f4a4ae45"
+  }, {
+    "name" : "api/pipelines",
+    "children" : [ {
+      "name" : "pipelines?projectId=6141d62d823f66daa6495879",
+      "uid" : "b49e4eea3437af45",
+      "parentUid" : "943b3d16df269e4e980900a3b58c451e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637310567207,
+        "stop" : 1637310567288,
+        "duration" : 81
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "943b3d16df269e4e980900a3b58c451e"
+  } ],
   "name" : "behaviors"
 }
