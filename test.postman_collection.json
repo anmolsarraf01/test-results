@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "65fa39a6-3ebf-40a3-90ef-1a960e5dc58c",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://g.codefresh.io/api/workflow?pipeline=618d3051b0da95d27b103c60",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "in",
+							"value": "query",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "string",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "string",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "619754a1d2fafc11584d57b7.1755b85bc9fb22a4a5dfbe06724677a1",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://g.codefresh.io/api/workflow?pipeline=618d3051b0da95d27b103c60",
+					"protocol": "https",
+					"host": [
+						"g",
+						"codefresh",
+						"io"
+					],
+					"path": [
+						"api",
+						"workflow"
+					],
+					"query": [
+						{
+							"key": "pipeline",
+							"value": "618d3051b0da95d27b103c60"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://g.codefresh.io/api/pipelines?projectId=6141d62d823f66daa6495879",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "in",
+							"value": "query",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "string",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "string",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "619754a1d2fafc11584d57b7.1755b85bc9fb22a4a5dfbe06724677a1",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://g.codefresh.io/api/pipelines?projectId=6141d62d823f66daa6495879",
+					"protocol": "https",
+					"host": [
+						"g",
+						"codefresh",
+						"io"
+					],
+					"path": [
+						"api",
+						"pipelines"
+					],
+					"query": [
+						{
+							"key": "projectId",
+							"value": "6141d62d823f66daa6495879"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
